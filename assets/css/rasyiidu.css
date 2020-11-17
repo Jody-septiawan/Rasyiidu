@@ -1,0 +1,135 @@
+.text-biru{
+    color: #4b81c2 !important;
+}
+
+.text-orange{
+    color: #f19b1a !important;
+}
+
+.bg-biru{
+    background-color:  #334f81 !important;
+}
+
+.bg-biru-tua{
+    background: #37517ede !important;
+}
+
+.bg-orange{
+    background-color: #f19b1a !important;
+}
+
+.hero iframe{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    border-radius: 2em;
+}
+
+.container-testi {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    padding-top: 56.25%;
+}
+
+.produk .btn-kunjungi{
+    border: 2px solid #f19b1a;
+    padding: 2px 20px;
+    border-radius: 5em;
+    color: #cc7a00;
+
+    white-space: nowrap;
+    font-size: 14px;
+    display: inline-block;
+    font-weight: 600;
+}
+
+.produk .btn-kunjungi:hover{
+    background-color: #f19b1a;
+    color: white;
+    transition: .5s;
+}
+
+.hero-img .col-lg-12{
+    text-align: left;
+}
+
+.menu-mobile .col-2, .col-3{
+    text-align: center;
+    font-size: small;
+}
+
+.menu-mobile{
+    border-radius: 1em 1em 0 0;
+}
+
+.menu-mobile small{
+    font-size: 8px;
+}
+
+@media only screen and (max-width: 400px) {
+    .navbar, .mobile-nav-toggle, .whatsapp{
+        display: none;
+    }
+    #footer{
+        margin-bottom: 48px;
+    }
+}
+
+@media only screen and (min-width: 400px) {
+.navbar-mobile, .menu-mobile{
+    display: none;
+}
+}
+
+@media only screen and (min-width: 1226px) {
+    .whatsapp img{
+        width: 5%;
+        bottom: 10px !important;
+        right: 10px !important;
+    }
+}
+
+  
+  @media only screen and (max-width: 1225px) {
+    .whatsapp img{
+        width: 15%;
+        bottom: 10px !important;
+        right: 10px !important;
+    }
+}
+
+  @media only screen and (max-width: 1024px) {
+    .whatsapp img{
+        width: 15%;
+        bottom: 80px !important;
+        right: 10px !important;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .whatsapp img{
+        width: 20%;
+        bottom: 80px !important;
+        right: 10px !important;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .whatsapp img{
+        width: 20%;
+        bottom: 70px !important;
+        right: 0px !important;
+    }
+}
+  
+@media only screen and (max-width: 400px) {
+    .whatsapp img{
+        width: 20%;
+        bottom: 60px !important;
+    }
+}
