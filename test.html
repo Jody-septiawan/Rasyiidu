@@ -11,7 +11,7 @@
 
     <!-- Favicons -->
     <link href="assets/img/rasyiidu/logo.png" rel="icon">
-    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+    <!-- <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon"> -->
 
     <!-- Google Fonts -->
     <link
@@ -30,25 +30,33 @@
     <!-- Template Main CSS File -->
     <link href="assets/css/style.css" rel="stylesheet">
     <link href="assets/css/rasyiidu.css" rel="stylesheet">
+
 </head>
 
 <body>
 
     <!-- ======= Header ======= -->
-    <header id="header" class="fixed-top bg-biru-tua">
+    <header id="header" class="fixed-top navbar bg-biru-tua">
         <div class="container d-flex align-items-center">
             <h1 class="logo mr-auto"><a href="index.html"><img src="assets/img/rasyiidu/logo-putih.png" alt=""></a></h1>
             <nav class="nav-menu d-none d-lg-block">
                 <ul>
                     <li class="active"><a href="index.html">Home</a></li>
-                    <li><a href="#testimoni">Testimoni</a></li>
                     <li><a href="#tentang">Tentang</a></li>
                     <li><a href="#layanan">Layanan</a></li>
+                    <li><a href="#testimoni">Testimoni</a></li>
                     <li><a href="#dokumentasi">Dokumentasi</a></li>
-                    <li><a href="#blog">Blog</a></li>
+                    <!-- <li><a href="#blog">Blog</a></li> -->
                     <li><a href="#footer">Kontak</a></li>
                 </ul>
             </nav>
+        </div>
+    </header>
+
+    <header id="header" class="fixed-top navbar-mobile bg-biru-tua py-1">
+        <div class="container text-center">
+            <h1 class="logo text-center"><a href="index.html"><img src="assets/img/rasyiidu/logo-putih.png" alt=""></a>
+            </h1>
         </div>
     </header>
     <!-- End Header -->
@@ -59,15 +67,16 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-1"></div>
-                <div class="col-lg-8  justify-content-center pt-4 pt-lg-0 order-2 order-lg-1" data-aos="fade-up"
-                    data-aos-delay="200">
+
+                <div class="col-lg-8  justify-content-center pt-4 pt-lg-0" data-aos="fade-up" data-aos-delay="200">
                     <div class="container-testi">
                         <iframe src="https://www.youtube.com/embed/jBwOAauRZl8?start=33" frameborder="0"
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                             allowfullscreen></iframe>
                     </div>
                 </div>
-                <div class="col-lg-2 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="200">
+
+                <div class="col-lg-2 hero-img mb-5" data-aos="zoom-in" data-aos-delay="200">
                     <div class="row">
                         <div class="col-lg-12">
                             <a href="https://youtu.be/4HfFKGUwAQM" class="venobox btn-watch-video" data-vbtype="video"
@@ -99,36 +108,18 @@
                         </div>
                     </div>
                 </div>
+
             </div>
         </div>
 
     </section>
+    <!-- End Hero -->
 
     <main id="main">
 
-
-        <!-- ======= About Us Section ======= -->
-        <section id="testimoni" class="about">
-            <div class="container" data-aos="fade-up">
-
-                <div class="section-title ">
-                    <h2 class="text-biru">Testimoni</h2>
-                </div>
-
-                <div class="row content">
-                    <div class="col-lg-12 text-center">
-                        <img src="assets/img/rasyiidu/chat.png" class="img-fluid" data-aos="zoom-in">
-                    </div>
-                </div>
-
-            </div>
-        </section>
-
-
-        <!-- About Rasyiidu -->
+        <!-- Tentang -->
         <section id="tentang" class="about section-bg">
             <div class="container" data-aos="fade-up">
-
                 <div class="row content">
                     <div class="col-lg-2"></div>
                     <div class="col-lg-8">
@@ -194,12 +185,11 @@
                         </div>
                     </div>
                 </div>
-
             </div>
         </section>
-        <!-- About Rasyiidu -->
+        <!-- Akhir Tentang -->
 
-        <!-- Produk -->
+        <!-- Layanan -->
         <section id="layanan" class="produk">
             <div class="container">
                 <div class="row content">
@@ -282,16 +272,32 @@
                 </div>
             </div>
         </section>
-        <!-- Akhir Produk -->
+        <!-- Akhir Layanan -->
+
+        <!-- Testimoni -->
+        <section id="testimoni" class="about">
+            <div class="container" data-aos="fade-up">
+
+                <div class="section-title ">
+                    <h2 class="text-biru">Testimoni</h2>
+                </div>
+
+                <div class="row content">
+                    <div class="col-lg-12 text-center">
+                        <img src="assets/img/rasyiidu/chat.png" class="img-fluid" data-aos="zoom-in">
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!-- Akhir Testimoni -->
 
         <!-- Dokumentasi -->
         <section id="dokumentasi" class="portfolio section-bg">
             <div class="container" data-aos="fade-up">
-
                 <div class="section-title">
                     <h2 class="text-biru">Dokumentasi</h2>
                 </div>
-
                 <div class="row portfolio-container">
 
                     <div class="col-lg-4 col-md-6 portfolio-item filter-app" data-aos="fade-up" data-aos-delay="200">
@@ -319,10 +325,9 @@
                                 alt=""></div>
                     </div>
 
-                    <div class="col-lg-4 col-md-6 portfolio-item filter-app" data-aos="fade-up" data-aos-delay="200">
-                        <div class="portfolio-img"><img src="assets/img/rasyiidu/dokumentasi/6.png" class="img-fluid"
-                                alt=""></div>
-                    </div>
+                    <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-app" data-aos="fade-up" data-aos-delay="200">
+            <div class="portfolio-img"><img src="assets/img/rasyiidu/dokumentasi/6.png" class="img-fluid" alt=""></div>
+          </div> -->
 
                     <div class="col-lg-4 col-md-6 portfolio-item filter-app" data-aos="fade-up" data-aos-delay="200">
                         <div class="portfolio-img"><img src="assets/img/rasyiidu/dokumentasi/7.png" class="img-fluid"
@@ -349,34 +354,29 @@
                                 alt=""></div>
                     </div>
 
-                    <div class="col-lg-4 col-md-6 portfolio-item filter-app" data-aos="fade-up" data-aos-delay="200">
-                        <div class="portfolio-img"><img src="assets/img/rasyiidu/dokumentasi/12.png" class="img-fluid"
-                                alt=""></div>
-                    </div>
+                    <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-app" data-aos="fade-up" data-aos-delay="200">
+            <div class="portfolio-img"><img src="assets/img/rasyiidu/dokumentasi/12.png" class="img-fluid" alt=""></div>
+          </div> -->
 
                     <div class="col-lg-4 col-md-6 portfolio-item filter-app" data-aos="fade-up" data-aos-delay="200">
                         <div class="portfolio-img"><img src="assets/img/rasyiidu/dokumentasi/13.png" class="img-fluid"
                                 alt=""></div>
                     </div>
 
-                    <div class="col-lg-4 col-md-6 portfolio-item filter-app" data-aos="fade-up" data-aos-delay="200">
-                        <div class="portfolio-img"><img src="assets/img/rasyiidu/dokumentasi/14.png" class="img-fluid"
-                                alt=""></div>
-                    </div>
+                    <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-app" data-aos="fade-up" data-aos-delay="200">
+            <div class="portfolio-img"><img src="assets/img/rasyiidu/dokumentasi/14.png" class="img-fluid" alt=""></div>
+          </div> -->
 
-                    <div class="col-lg-4 col-md-6 portfolio-item filter-app" data-aos="fade-up" data-aos-delay="200">
-                        <div class="portfolio-img"><img src="assets/img/rasyiidu/dokumentasi/15.png" class="img-fluid"
-                                alt=""></div>
-                    </div>
+                    <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-app" data-aos="fade-up" data-aos-delay="200">
+            <div class="portfolio-img"><img src="assets/img/rasyiidu/dokumentasi/15.png" class="img-fluid" alt=""></div>
+          </div> -->
 
                     <div class="col-lg-4 col-md-6 portfolio-item filter-app" data-aos="fade-up" data-aos-delay="200">
                         <div class="portfolio-img"><img src="assets/img/rasyiidu/dokumentasi/16.png" class="img-fluid"
                                 alt=""></div>
                     </div>
 
-
                 </div>
-
             </div>
         </section>
         <!-- Akhir Dokumentasi -->
@@ -384,32 +384,33 @@
     </main><!-- End #main -->
 
     <!-- ======= Footer ======= -->
-    <footer id="footer" class="bg-biru">
+    <footer id="footer">
 
         <div class="footer-top">
-            <div class="container">
+            <div class="container my-5">
                 <div class="row">
 
                     <div class="col-lg-3 col-md-6 footer-contact" data-aos="fade-right" data-aos-delay="200">
                         <img src="assets/img/rasyiidu/logo-hitam.png" alt="" width="200" class="img-fuid">
-                        <p>
-                            A108 Adam Street <br>
-                            New York, NY 535022<br>
-                            United States <br><br>
-                            <strong>Phone:</strong> +1 5589 55488 55<br>
-                            <strong>Email:</strong> info@example.com<br>
+                        <p class="my-3">
+                            HSE building <br>
+                            Jl. cik ditiro 6 Yogyakarta
                         </p>
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3953.081475604637!2d110.37324731477803!3d-7.781185994392316!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a599e229d5adb%3A0xd194f21d0c496a20!2sHomeschooling%20Entrepreneur%20Yogyakarta!5e0!3m2!1sid!2sid!4v1605773091936!5m2!1sid!2sid"
+                            class="img-fluid" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+                            tabindex="0"></iframe>
                     </div>
 
                     <div class="col-lg-3 col-md-6 footer-links" data-aos="fade-up" data-aos-delay="200">
-                        <h4 class="text-biru">Main Menu</h4>
+                        <h4 class="text-biru">Menu Utama</h4>
                         <ul>
                             <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
                             <li><i class="bx bx-chevron-right"></i> <a href="#">Testimoni</a></li>
                             <li><i class="bx bx-chevron-right"></i> <a href="#">Tentang</a></li>
                             <li><i class="bx bx-chevron-right"></i> <a href="#">Layanan</a></li>
                             <li><i class="bx bx-chevron-right"></i> <a href="#">Dokumentasi</a></li>
-                            <li><i class="bx bx-chevron-right"></i> <a href="#">Blog</a></li>
+                            <!-- <li><i class="bx bx-chevron-right"></i> <a href="#">Blog</a></li> -->
                         </ul>
                     </div>
 
@@ -424,13 +425,19 @@
                     </div>
 
                     <div class="col-lg-3 col-md-6 footer-links" data-aos="fade-left" data-aos-delay="200">
-                        <h4 class="text-biru">Sosial Media</h4>
+                        <h4 class="text-biru">Sosial media</h4>
                         <div class="social-links mt-3">
                             <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
                             <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
                             <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
                             <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
                             <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+                        </div>
+                        <div class="footer-contact mt-3">
+                            <p>
+                                <strong>Phone:</strong> +1 5589 55488 55<br>
+                                <strong>Email:</strong> info@example.com<br>
+                            </p>
                         </div>
                     </div>
 
@@ -443,11 +450,58 @@
                 &copy; Copyright <strong><span>Rasyiidu</span></strong>. All Rights Reserved
             </div>
         </div>
-    </footer>
-    <!-- End Footer -->
+    </footer><!-- End Footer -->
 
-    <a href="#" class="back-to-top"><i class="ri-arrow-up-line"></i></a>
-    <div id="preloader"></div>
+    <!-- Whatsapp -->
+    <div class="whatsapp">
+        <a href="https://wa.me/6285235010000" target="_blank">
+            <img src="assets/img/rasyiidu/whatsapp.png" class="img-fluid" style="position: fixed; right: 0;">
+        </a>
+    </div>
+    <!-- Akhir Whatsapp -->
+
+    <!-- Menu Mobile -->
+    <div class="container menu-mobile fixed-bottom bg-biru">
+        <div class="row text-light pt-2 pb-1">
+            <div class="col-1"></div>
+
+            <div class="col-2">
+                <a href="#hero" class="text-light">
+                    <div><img src="assets/img/rasyiidu/menu/home.png" class="img-fluid" width="20" alt=""></div>
+                    <small>Home</small>
+                </a>
+            </div>
+            <div class="col-2">
+                <a href="#tentang" class="text-light">
+                    <div><img src="assets/img/rasyiidu/menu/information.png" class="img-fluid" width="20" alt=""></div>
+                    <small>Tentang</small>
+                </a>
+            </div>
+            <div class="col-2">
+                <a href="#layanan" class="text-light">
+                    <div><img src="assets/img/rasyiidu/menu/mortarboard.png" class="img-fluid" width="20" alt=""></div>
+                    <small>Layanan</small>
+                </a>
+            </div>
+            <div class="col-2">
+                <a href="#dokumentasi" class="text-light">
+                    <div><img src="assets/img/rasyiidu/menu/picture.png" class="img-fluid" width="20" alt=""></div>
+                    <small>Kegiatan</small>
+                </a>
+            </div>
+            <div class="col-2">
+                <a href="https://wa.me/6285235010000" target="_blank" class="text-light">
+                    <div><img src="assets/img/rasyiidu/whatsapp.png" class="img-fluid" width="20" alt=""></div>
+                    <small>Whatsapp</small>
+                </a>
+            </div>
+            <div class="col-1"></div>
+        </div>
+    </div>
+    <!-- Akhir Menu Mobile -->
+
+    <!-- <a href="#" class="back-to-top"><i class="ri-arrow-up-line"></i></a> -->
+    <!-- <div id="preloader"></div> -->
 
     <!-- Vendor JS Files -->
     <script src="assets/vendor/jquery/jquery.min.js"></script>
